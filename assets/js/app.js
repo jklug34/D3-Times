@@ -213,7 +213,7 @@ d3.csv("assets/data/data.csv").then(function(healthRiskData, err) {
     .attr("cx", d => xLinearScale(d[chosenXAxis]))
     .attr("cy", d => yLinearScale(d[chosenYAxis]))
     .attr("r", 12)  // change size of circle
-    .attr("fill", "black") // change color #89bdd3
+    .attr("fill", "#99b3ff") // change color #89bdd3
     .attr("stroke", "e3e3e3")
     .attr("opacity", "0.5");
 
